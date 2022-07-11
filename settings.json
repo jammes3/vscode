@@ -5,5 +5,25 @@
     "git.confirmSync": false,
     "[vue]": {
         "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "editor.tokenColorCustomizations": {
+
+        "textMateRules": [
+            {
+                "scope": "comment.line",
+                "settings": {
+                    "fontStyle": "bold italic",
+                    "foreground": "#2bff63cd"
+                }
+            },
+            {
+                "scope": "comment.block",
+                "settings": {
+                    "fontStyle": "bold",
+                    "foreground": "#fe27f7cd"
+                }
+            }
+        ]
+    
     }
 }
