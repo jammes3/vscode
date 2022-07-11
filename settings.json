@@ -1,0 +1,9 @@
+{
+    "security.workspace.trust.untrustedFiles": "open",
+    "sftp.downloadWhenOpenInRemoteExplorer": true,
+    "git.enableSmartCommit": true,
+    "git.confirmSync": false,
+    "[vue]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    }
+}
